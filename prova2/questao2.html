@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Instituto de Computação</title>
+		<script>
+			var instituto = document.getElementById("instituto");
+			document.getElementById("adicionar").onclick = function() {
+			 instituto.style.setProperty("background-color", "lightgray");
+			 instituto.style.setProperty("color", "red");
+			}
+			document.getElementById("limpar").onclick = function() {
+			 instituto.style.removeProperty("background-color");
+			 instituto.style.removeProperty("color"); 
+		</script>
+	</head>
+	
+	<body>
+		<div id="instituto">Instituto de Computação</div>
+		<button id="adicionar">Adicionar Estilos</button>
+		<button id="limpar">Limpar Estilo</button>
+	</body>
+</html>
