@@ -1,0 +1,6 @@
+Primeira Questão Prova 2
+
+Primeiro erro: o código não está começando com a tag <html> onde descreve que é um código html.
+Segundo erro: O <body> está começando antes das tags <head><title> e do próprio <script> 
+Terceiro erro: O <head> esta abrindo no início na linha 03 e fechando somente na linha 23. Está errado porquê ele deveria fechar antes mesmo de começar o body.
+Quarto erro: As tags <style> e <script> estão trocadas, na verdade o p{ deve estar dentro de uma tag <style> e o var body deve estar dentro da tag <script> e todas deveriam estar dentro da tag <head>

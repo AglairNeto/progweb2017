@@ -1,0 +1,5 @@
+Significado de Closure
+
+Basicamente,se refere à forma como funções definidas dentro de um "contexto léxico" acessam variáveis definidas nesse contexto.
+
+No codigo descrito na questão utiliza esse recurso. Não importa quando a função interna irá executar, nem qual o valor as variáveis externas tinham no momento em que foi criado. O que realmente importa é que ambas compartilham a mesma variável e escritas de um lado, vão refletir nas leituras do outro e vice-versa.
