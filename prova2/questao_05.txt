@@ -7,3 +7,6 @@ a) O que é o diretório de trabalho?
 b)Qual é a diferença entre repositório local e repositório remoto?
 
 Um repositório é onde está todas as informações para se manter e controlar o histórico e as revisões de um projeto. A diferença entre os dois é que o repositório local é o repositório do computador, antes de ser comitado, que está somente a cópia atualizada no computador. E o remoto é quando já está no github.Repositórios remotos são versões do seu projeto que estão hospedados na Internet ou em uma rede.
+
+Nota: 1.5
+Faltou apenas reportar os logs.
